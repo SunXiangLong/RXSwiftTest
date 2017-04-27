@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DGElasticPullToRefresh (1.1)
+  - Kingfisher (3.6.1)
+  - MJRefresh (3.1.12)
+  - Moya (8.0.3):
+    - Moya/Core (= 8.0.3)
+  - Moya/Core (8.0.3):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/ReactiveSwift (8.0.3):
+    - Moya/Core
+    - ReactiveSwift (~> 1.0)
+  - Moya/RxSwift (8.0.3):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - PKHUD (4.2.1)
+  - ReactiveSwift (1.1.1):
+    - Result (~> 3.2)
+  - Result (3.2.1)
+  - RxCocoa (3.4.0):
+    - RxSwift (~> 3.4)
+  - RxSwift (3.4.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - DGElasticPullToRefresh
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - Moya/ReactiveSwift
+  - Moya/RxSwift
+  - PKHUD (~> 4.0)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, tag `3.4.0`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, tag `3.4.0`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 3.4.0
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 3.4.0
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 3.4.0
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 3.4.0
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Moya: d3721622e3cc0cc2f038d69a258686f0b66e7252
+  PKHUD: 957ce2a68b3c97a51839b30216120c1dbc0c3a78
+  ReactiveSwift: 2489549e3231a6ff68ec99f3d320bb264f10ba0a
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  RxCocoa: 340254e41293a97d2be220592ea7d1e73980b1d5
+  RxSwift: c744f5eb1c13a8acce49bb40fda553da7bf31046
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a0d26f8b4837e30906b4592696c0dc1b43c3db26
+
+COCOAPODS: 1.2.0
